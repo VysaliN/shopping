@@ -6,7 +6,7 @@ import Home from "./Home";
 import './shopping.css'
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Redirect,
 } from "react-router-dom";
@@ -14,12 +14,12 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/fruits" component={Fruits} />
-          <Route path="/shirts" component={Shirts} />
-          <Route path="/vegetables" component={Vegetables} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/fruits" element={<Fruits/>} />
+          <Route path="/shirts" element={<Shirts/>} />
+          <Route path="/vegetables" element={<Vegetables/>} />
+          </Routes>
       </Router>
     </div>
   );
