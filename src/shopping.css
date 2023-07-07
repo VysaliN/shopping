@@ -1,0 +1,41 @@
+
+span{
+    color: brown;
+}
+.shopping{
+    margin-top: 20px;
+    display: flex;
+    width:100vw;
+    flex-wrap: wrap;
+}
+.shopping1{
+    margin-right: 20px;
+}
+.shopping2{
+    margin-right: 20px;
+}
+.shopping3{
+    margin-right: 20px;
+}
+.shopping4{
+    margin-right: 20px;
+}
+.shopping5{
+   margin-right: 20px;
+}
+.shopping6{
+    margin-right: 20px;
+}
+.shopping7{
+    margin-right: 20px;
+}
+.shopping8{
+    margin-right: 20px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
